@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+  img {
+    display: inline-block;
+
+  }
+  .logo-holder {
+    flex: 1;
+    display: inline-block;
+    width: 267px;
+    .logo {
+      width: 200px;
+      height: auto;
+    }
+    .logo-dog {
+      width: 67px;
+      height: auto;
+      border-radius: 67px;
+      margin-left: 10px;
+    }
+  }
+  nav {
+    flex: 1;
+    text-align: right;
+    .nav-link {
+      display: inline-block;
+      position: relative;
+      bottom: -2rem;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-left: 50px;
+      color: $primary;
+      opacity: 0.75;
+      text-decoration: none;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

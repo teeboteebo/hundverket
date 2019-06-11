@@ -1,0 +1,41 @@
+$primary: #008a46;
+
+html {
+  body > div {
+    background-color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    @media screen and (min-width: 1200px) {
+      padding: 0 calc((100vw - 1200px) / 2);
+    }
+    // header {
+    //   min-width: 100%;
+    //   max-width: 1200px;
+    //   margin: 0 auto;
+    // }
+    header {
+    }
+    main {
+      flex: 1;
+    }
+    figure {
+      margin: 0; 
+    }
+    @media (min-width: 1200px) {
+      .full-width {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+      }
+      .full-width-padding {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        padding: 0 calc((100vw - 1200px) / 2);
+      }
+    }
+  }
+}
+// Startpage
+@import "../components/StartPage/styles";
+@import "../components/Header/styles";
+@import "../components/Footer/styles";
