@@ -7,7 +7,6 @@ const Header = props => {
       <NavLink to="/" className="logo-holder">
         <img src="/images/hvis-logo-primary.png" className="logo" alt="Hundverket i Skåne" />
         <img src="/images/ebbe.jpg" className="logo-dog" alt="Pedagoghunden Ebbe" />
-
       </NavLink>
       <nav>
         <NavLink exact activeStyle={{ opacity: 1 }} className="nav-link" to="/">

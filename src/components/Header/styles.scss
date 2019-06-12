@@ -1,16 +1,13 @@
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 20px 0;
   img {
     display: inline-block;
-
   }
   .logo-holder {
-    flex: 1;
-    display: inline-block;
-    width: 267px;
+    
+    width: 277px;
     .logo {
       width: 200px;
       height: auto;
